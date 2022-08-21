@@ -1,47 +1,29 @@
-<div class="banner-slider">
-    <div class="slider-one">
-        <div class="slider-one-image" style="background-image: url('/website/images/banner-1.png');">
-            <div class="overlay"></div>
-            <div class="slider-text">
+<section class="banner-section banner-one">
+    @if(isset($sliders) && $sliders!=null)
+    <section class="banner-section banner-one">
 
-                <h1>Exceptional care,
-                    Every patient, Every Day.</h1>
-                <p>Making a nation prosperous is possible only through its healthy citizens</p>
+        <div class="banner-carousel owl-theme owl-carousel">
+            <!-- Slide Item -->
+            @foreach($sliders as $slider)
+            <div class="slide-item">
+                <div class="image-layer" style="background-image: url({{$slider->banner_image}});">
+                </div>
+                <div class="auto-container">
+                    <div class="content-box">
+                        <div class="content">
+                            <div class="inner">
+                                <h1>
+                                    <?php echo "$slider->short_content" ?> </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+          @endforeach 
+    
         </div>
-    </div>
-
-    <div class="slider-two">
-        <div class="slider-two-image" style="background-image: url('/website/images/banner-2.png');">
-            <div class="overlay"></div>
-            <div class="slider-text">
-
-                <h1>Exceptional care,
-                    Every patient, Every Day.</h1>
-                <p>Making a nation prosperous is possible only through its healthy citizens</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="slider-three">
-        <div class="slider-three-image" style="background-image: url('/website/images/banner-3.png');">
-            <div class="overlay"></div>
-            <div class="slider-text">
-                <h1>Exceptional care,
-                    Every patient, Every Day.</h1>
-                <p>Making a nation prosperous is possible only through its healthy citizens</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="slider-four">
-        <div class="slider-four-image" style="background-image: url('/website/images/banner-4.png');">
-            <div class="overlay"></div>
-            <div class="slider-text">
-                <h1>Exceptional care,
-                    Every patient, Every Day.</h1>
-                <p>Making a nation prosperous is possible only through its healthy citizens</p>
-            </div>
-        </div>
-    </div>
-</div>
+    </section>
+    
+    @endif
+   
+</section>

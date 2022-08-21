@@ -1,93 +1,28 @@
-@extends("layouts.master")
-@section("content")
 
-<section class="page-title page-title-layout5 bg-img" style="background-image: url(/website/images/6.jpg) !important; background-size: cover; background-position: center center; padding-top: 120px;">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 d-flex justify-content-between flex-wrap align-items-center">
-            <h1 class="pagetitle__heading my-3">Our Services</h1>
-            <nav>
-              <ol class="breadcrumb my-3">
-                <li class="breadcrumb-item"><a href="/">Home</a></li>
-                <li class="breadcrumb-item">Services</li>
-              </ol>
-            </nav>
-          </div><!-- /.col-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section>
 
-<section class="latest_news news-page">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-4 col-sm-12">
-					<div class="outer-box">
-              <a href="newsdetails">
-                  <div class="box" style="background-image: url(/website/images/news-1.png)">
-                      <div class="box-overlay">
-                          <h3>Problems as we grow older.</h3>
-                      </div>
-                  </div>
-              </a>
-          </div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-12">
-					<div class="outer-box">
-              <a href="newsdetails">
-                  <div class="box" style="background-image: url(/website/images/news-2.png)">
-                      <div class="box-overlay">
-                          <h3>Covid Vaccination</h3>
-                      </div>
-                  </div>
-              </a>
-          </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-12">
-      	<div class="outer-box">
-            <a href="newsdetails">
-                <div class="box" style="background-image: url(/website/images/news-3.png)">
-                    <div class="box-overlay">
-                        <h3>World Health Day</h3>
-                    </div>
+<section class="news-event">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <div class="block-title text-left text-white">
+                    <p>Latest</p>
+                    <h3>NEWS <br> & EVENTS</h3>
                 </div>
-            </a>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-12">
-      	<div class="outer-box">
-            <a href="newsdetails">
-                <div class="box" style="background-image: url(/website/images/news-4.png)">
-                    <div class="box-overlay">
-                        <h3>Health Issues of Nepal</h3>
-                    </div>
+            </div>
+            <div class="col-md-7">
+                <div class="news-list">
+                <ul>
+                    <li><a href="inner.html">13th Annual General Meeting concluded</a></li>
+                    <li><a href="inner.html">ECON calls to use ASYCUDA System</a></li>
+                    <li><a href="inner.html"> 18th AGM of the Council on shrawan 14,2072</a></li>
+                    <li><a href="inner.html"> Interaction and discussion program on export procedure</a></li>
+                    <li><a href="inner.html">19th AGM and Export Day 2073</a></li>
+
+                </ul>
+                <a href="news-list" class="thm-btn about_one__btn">View All</a>
                 </div>
-            </a>
+            </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-12">
-      	<div class="outer-box">
-            <a href="newsdetails">
-                <div class="box" style="background-image: url(/website/images/news-5.png)">
-                    <div class="box-overlay">
-                        <h3>Mens Mental Health</h3>
-                    </div>
-                </div>
-            </a>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-12">
-      	<div class="outer-box">
-            <a href="newsdetails">
-                <div class="box" style="background-image: url(/website/images/news-6.png)">
-                    <div class="box-overlay">
-                        <h3>Women Health</h3>
-                    </div>
-                </div>
-            </a>
-        </div>
-      </div>
-		</div>
-	</div>
+    </div>
 </section>
 
-@endsection

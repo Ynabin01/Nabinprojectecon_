@@ -130,7 +130,6 @@
             <div class="clearfix"></div>
 
             <?php $page_types= App\Models\PageType::get(); ?>
-                
             <div class="form-group col-md-12">
                 <label for="page_type">Page Type <i class="reqr">*</i></label>   
                 <select class="form-control" name="page_type" id="page_type" required="" onchange="pageType(this.value)"> 
@@ -152,7 +151,6 @@
                         </select>   
                 </div>
             <!--/.end parent_id_div-->
-
             <!-- <div class="form-group col-md-12">-->
             <!--    <label for="page_template">Page Template <i class="reqr">*</i></label>   -->
             <!--    <select class="form-control" name="page_template" id="page_template" required=""> -->

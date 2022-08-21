@@ -1,15 +1,12 @@
 @extends("layouts.master")
 
-    @section('content')
-        @include("website.slider")
-        @include("website.ourservices")
-        @include("website.sahidservices")
-        @include("website.sahidteam")
-        @include("website.ourstatistics")
-        @include("website.latestnews")
-        @include("website.ourtestimonial")
-        @include("website.sahidcontactdetails")
-        @include("website.sahidteam")
-        
-    @endsection   
- 
+
+@section('content')
+    @include("website.notice")
+    @include("website.slider")
+    @include("website.aboutone")
+    @include("website.message")
+    @include("website.exportable")
+    @include("website.newsevent")
+    @include("website.partner")
+@endsection

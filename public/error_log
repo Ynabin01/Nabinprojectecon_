@@ -1,0 +1,2 @@
+[02-Aug-2022 12:15:55 Asia/Kathmandu] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home1/demoradiantnepal/sahid-memorial.demo.radiantnepal.com/storage/framework/views/c2f3dc8336766c266993867a812e325026724a70.php on line 11
+[03-Aug-2022 06:36:23 America/Chicago] PHP Parse error:  syntax error, unexpected ''Symfony\' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home1/demoradiantnepal/sahid-memorial.demo.radiantnepal.com/vendor/composer/autoload_static.php on line 78
